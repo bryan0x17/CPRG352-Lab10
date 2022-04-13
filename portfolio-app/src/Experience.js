@@ -12,14 +12,16 @@ function Experience() {
             </p>
             <p>
               Monitored backups for successful execution.
+              </p>
             <p>
             Extended Nagios monitoring to additional servers and services.
             </p>
+            <p>
             Wrote a custom Nagios plugin in Python to monitor servers.
+            </p>
             <p>
             Wrote and modified scripts for performing tasks and monitoring
             servers.
-            </p>
             </p>
           </li>
         </ul>

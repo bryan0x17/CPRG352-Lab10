@@ -6,20 +6,10 @@ function Education() {
         <ul className="list-unstyled">
           <li>
             <h6 className="fw-bold">
-              Computer Science / University Name 2001-2004
+              Software development / Southern Alberta Institute of Technology 2021 - 2022
             </h6>
             <p>
-              Sed et ornare quam. Cras scelerisque ex ultricies neque sodales
-              tristique. Phasellus mattis dui ut enim tincidunt auctor. Maecenas
-              euismod, orci eget varius elementum, nunc massa dignissim sapien,
-              ac sagittis libero dolor vitae elit.
-            </p>
-          </li>
-          <li>
-            <h6 className="fw-bold">Testville High School 1994-2000</h6>
-            <p>
-              Aenean nisl enim, dictum in odio ut, suscipit efficitur diam. Nam
-              nec velit a odio porta efficitur nec at magna.
+              Courses in fullstack web development including Java, SQL, HTML, CSS, JavaScript
             </p>
           </li>
         </ul>
