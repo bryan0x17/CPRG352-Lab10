@@ -1,39 +1,17 @@
+import TechList from "./TechList";
+const techList = ["Java", "SQL", "JavaScript", "HTML", "CSS", "Bootstrap", "React"];
+
+const renderList = techList.map((item, index) =>
+        <li key={index}>{item}</li>
+    );
+
 function Technology() {
   return (
     <div className="card">
       <div className="card-body">
         <h2 className="card-title">Technology Summary</h2>
         <ul className="list-unstyled">
-          <li>
-            <p>
-              Java
-            </p>
-          </li>
-          <li>
-            <p>
-              JavaScript
-            </p>
-          </li>
-          <li>
-            <p>
-              SQL
-            </p>
-          </li>
-          <li>
-            <p>
-              HTML
-            </p>
-          </li>
-          <li>
-            <p>
-              CSS
-            </p>
-          </li>
-          <li>
-            <p>
-              React
-            </p>
-          </li>
+          {renderList}
         </ul>
       </div>
     </div>
