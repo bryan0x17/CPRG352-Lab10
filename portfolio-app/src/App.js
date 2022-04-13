@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './Header.js';
 import Experience from './Experience.js';
+import Education from './Education';
 
 function App() {
   return (
@@ -13,30 +14,7 @@ function App() {
                 <Experience/>
             </div>
             <div className="col-md">
-                <div className="card">
-                    <div className="card-body">
-                        <h2 className="card-title">Education</h2>
-                        <ul className="list-unstyled">
-                            <li>
-                                <h6 className="fw-bold">Computer Science / University Name 2001-2004</h6>
-                                <p>Sed et ornare quam. Cras scelerisque ex ultricies neque sodales tristique. Phasellus
-                                    mattis
-                                    dui ut enim
-                                    tincidunt auctor. Maecenas euismod, orci eget varius elementum, nunc massa dignissim
-                                    sapien,
-                                    ac sagittis
-                                    libero dolor vitae elit.</p>
-                            </li>
-                            <li>
-                                <h6 className="fw-bold">Testville High School 1994-2000</h6>
-                                <p>Aenean nisl enim, dictum in odio ut, suscipit efficitur diam. Nam nec velit a odio
-                                    porta
-                                    efficitur nec at
-                                    magna.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <Education/>
             </div>
         </div>
         <div className="row mt-3">
