@@ -1,4 +1,4 @@
-import TechList from "./TechList";
+
 const techList = ["Java", "SQL", "JavaScript", "HTML", "CSS", "Bootstrap", "React"];
 
 const renderList = techList.map((item, index) =>
