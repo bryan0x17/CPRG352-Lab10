@@ -8,7 +8,7 @@ function Header() {
                         alt="Person - Avatar Placeholder@seekpng.com" className="border border-5 rounded-circle img-fluid" style={{width: '150px', height: '150px'}}/>
                 </div>
                 <div className="col text-center text-lg-start">
-                    <h1>Joe Blow</h1>
+                    <h1>Bryan Meyer</h1>
 
                     <p className="lead">Software development student at SAIT (Southern Alberta Institute of Technology).</p>
 
